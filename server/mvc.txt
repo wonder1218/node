@@ -1,0 +1,11 @@
+m( model 模型： 数据库增删改查 ) v ( view 视图 :界面显示 )  
+
+c (controller 控制器: 实现 m和v 的操作)
+
+router.get('/artilce',function(ctx,next){
+
+})
+
+在 controller 文件夹中  创建 articleController类:  列表方法list(), 添加 add() doadd()  , 修改 edit() doedit()  删除 del()
+
+router.get('/artilce',articleController.list);
