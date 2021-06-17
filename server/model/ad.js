@@ -10,6 +10,11 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
             comment: "广告标题"
         },
+        link: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            comment: "广告连接"
+        },
         content: {
             type: DataTypes.TEXT,
             allowNull: false,
